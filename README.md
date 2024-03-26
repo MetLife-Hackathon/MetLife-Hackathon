@@ -22,8 +22,6 @@
 | 박무현 | AI API Dev | [박무현]() |  |
 | 박도현 | AI API Dev | [박도현 Link](https://dhparkland.site/) | zerosugarcoke@naver.com |
 
-| [이름 추가] | [역할 추가] | [GitHub 프로필 링크 추가]                       | [이메일 추가]         |
-
 
 ## 🎨 프로젝트 설명
 <img width="704" alt="image" src="https://github.com/MetLife-Hackathon/MetLife-Hackathon/assets/37052379/4e53754e-6399-4542-9a4a-300a9a19b761">
