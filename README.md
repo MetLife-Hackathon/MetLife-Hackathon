@@ -17,7 +17,7 @@
 | 조일민 | FrontEnd Dev | [조일민]() |  |
 | 최승원 | BackEnd Dev | [최승원](https://github.com/김철수의GitHubID)  | 최승원의이메일@도메인 |
 | 김예슬 | BackEnd Dev | [김예슬]() |  |
-| 이은지 | BackEnd Dev | [이은지]() |  |
+| 이은지 | 팀장 & BackEnd Dev | [이은지](https://github.com/spew11) | dhbdg11@gmail.com |
 | 이현수 | AI API Dev | [이현수]() |  |
 | 박무현 | AI API Dev | [박무현]() |  |
 | 박도현 | AI API Dev | [박도현 Link](https://dhparkland.site/) | zerosugarcoke@naver.com |
@@ -50,7 +50,7 @@ AI 기반 플랫폼은 최적의 응답 템플릿을 제공하여 상담사와�
 ### 기술 스택
 
 - 프론트엔드: [기술/라이브러리 이름]
-- 백엔드: [기술/라이브러리 이름]
+- 백엔드: Spring boot 3.2.4, Spring Data JPA, Spring Security 3.1.5
 - 
 - AI:
 - JDK 11: ElasticSearch,Spring Boot 환경 통일
