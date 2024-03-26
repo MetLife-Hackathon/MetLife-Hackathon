@@ -1,0 +1,31 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- checkout: self
+- task: NodeTool@0
+  inputs:
+    versionSpec: '20.x'
+  displayName: 'Install Node.js'
+
+- script: |
+    npm install
+    npm run build-prod
+  displayName: 'Install Dependencies & Build'
+
+- script: | 
+    rm -rf ./node_modules
+  displayName: 'Remove Cache'
+
+- task: AzureStaticWebApp@0
+  inputs:
+    app_location: '/dist'
+    output_location: ''
+    skip_app_build: true
+    skip_api_build: true
+    is_static_export: true
+    azure_static_web_apps_api_token: $(STATIC_DEPLOY_TOKEN)
+  displayName: Deploy to Azure Static Web App

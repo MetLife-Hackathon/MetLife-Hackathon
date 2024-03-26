@@ -1,0 +1,52 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '2.7.0'
+    id 'io.spring.dependency-management' version '1.1.4'
+}
+
+group = 'com.hackaton'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    sourceCompatibility = '11'
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter'
+    compileOnly 'org.projectlombok:lombok'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+
+    //Chat gpt
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    // https://mvnrepository.com/artifact/com.github.vladimir-bukhtoyarov/bucket4j-core
+    implementation 'com.github.vladimir-bukhtoyarov:bucket4j-core:6.2.0'
+// https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple
+    implementation 'com.googlecode.json-simple:json-simple:1.1'
+
+    //elastic search 의존성 시작
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-elasticsearch
+    implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch:2.7.9'
+
+    implementation 'org.elasticsearch.client:elasticsearch-rest-high-level-client:7.17.11'
+    //implementation 'org.elasticsearch:elasticsearch:8.7.0'
+    implementation 'org.elasticsearch.client:elasticsearch-rest-client:8.8.2'
+
+    //elastic search 의존성 끝
+}
+
+//tasks.named('test') {
+//    useJUnitPlatform()
+//}

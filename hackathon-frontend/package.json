@@ -1,0 +1,99 @@
+{
+  "name": "react-pwa",
+  "version": "2.3.0",
+  "type": "module",
+  "description": "Starter kit for modern web applications",
+  "homepage": "https://react-pwa.surenatoyan.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suren-atoyan/react-pwa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suren-atoyan/react-pwa/issues",
+    "email": "contact@surenatoyan.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "local": "vite",
+    "dev": "vite --mode dev",
+    "prod": "vite --mode prod",
+    "build-local": "tsc && vite build",
+    "build-dev": "tsc && vite build --mode dev",
+    "build-prod": "tsc && vite build --mode prod",
+    "preview": "vite preview",
+    "https-preview": "serve dist",
+    "prepare": "husky install && cp -n env/.shared .env &",
+    "prettier:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "lint:check": "eslint --max-warnings=0 \"src/**/*.{js,jsx,ts,tsx,json}\"",
+    "ts:check": "tsc --noEmit",
+    "test:unit": "vitest"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.0",
+    "@mui/lab": "5.0.0-alpha.156",
+    "@mui/material": "^5.15.0",
+    "@mui/system": "^5.15.0",
+    "@mui/utils": "^5.15.0",
+    "@mui/x-data-grid": "^7.0.0",
+    "@mui/x-date-pickers": "^7.0.0",
+    "axios": "^1.6.8",
+    "dayjs": "^1.11.10",
+    "install": "^0.13.0",
+    "is-mobile": "^4.0.0",
+    "moment": "^2.30.1",
+    "notistack": "^3.0.1",
+    "npm": "^10.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-error-boundary": "^4.0.11",
+    "react-helmet-async": "^2.0.3",
+    "react-hotkeys-hook": "^4.4.1",
+    "react-router-dom": "^6.21.0",
+    "react-virtuoso": "^4.7.4",
+    "recoil": "^0.7.7"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@types/node": "^20.10.4",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "https-localhost": "^4.7.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "postcss": "^8.4.38",
+    "prettier": "3.1.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.9",
+    "vite-plugin-pwa": "^0.17.4",
+    "vitest": "^1.1.3"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ],
+    "src/**/*.{js,jsx,ts,tsx,json}": [
+      "eslint --max-warnings=0"
+    ]
+  },
+  "author": {
+    "name": "Suren Atoyan",
+    "email": "contact@surenatoyan.com",
+    "url": "http://surenatoyan.com/"
+  },
+  "keywords": [
+    "react",
+    "pwa",
+    "starter-kit",
+    "vite"
+  ]
+}
