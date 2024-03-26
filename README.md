@@ -54,7 +54,7 @@ AI 기반 플랫폼은 최적의 응답 템플릿을 제공하여 상담사와�
 - 
 - AI:
 - JDK 11: ElasticSearch,Spring Boot 환경 통일
-- ElasticSearch 8.7.0: 보험 약관 데이터 저장 및 검색,Chat GPT Embedding Large
+- ElasticSearch 8.7.0: 보험 약관 데이터 저장 및 검색
 - Spring Boot 2.7.0: API 제공 서버 개발
 - (GPT)text-embedding-3-small,text-embedding-3-large 모델: 문서 및 쿼리 임베딩
 - GPT-4-1106-preview: 사용자 질의에 대한 답변 생성
