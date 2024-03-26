@@ -13,7 +13,7 @@
 | 이름   | 역할 | GitHub                                           | 이메일                |
 |--------|------|--------------------------------------------------|-----------------------|
 | 이태겸 | FrontEnd Dev  | [이태겸](https://github.com/홍길동의GitHubID)  | 이태겸의이메일@도메인 |
-| 박태환 | FrontEnd Dev | [박태환]() |  |
+| 박태완 | FrontEnd Dev | [박태완](https://github.com/Taewan-P) | swimingtw@gmail.com |
 | 조일민 | FrontEnd Dev | [조일민]() |  |
 | 최승원 | BackEnd Dev | [최승원](https://github.com/김철수의GitHubID)  | 최승원의이메일@도메인 |
 | 김예슬 | BackEnd Dev | [김예슬]() |  |
