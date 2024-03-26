@@ -14,7 +14,7 @@
 |--------|------|--------------------------------------------------|-----------------------|
 | 이태겸 | FrontEnd Dev  | [이태겸](https://github.com/홍길동의GitHubID)  | 이태겸의이메일@도메인 |
 | 박태완 | FrontEnd Dev | [박태완](https://github.com/Taewan-P) | swimingtw@gmail.com |
-| 조일민 | FrontEnd Dev | [조일민]() |  |
+| 조일민 | FrontEnd Dev | [조일민](https://github.com/IlMinCho) | choim426@gmail.com |
 | 최승원 | BackEnd Dev | [최승원](https://github.com/김철수의GitHubID)  | wonny921@gmail.com |
 | 김예슬 | BackEnd Dev | [김예슬]() |  |
 | 이은지 | 팀장 & BackEnd Dev | [이은지](https://github.com/spew11) | dhbdg11@gmail.com |
@@ -49,7 +49,12 @@ AI 기반 플랫폼은 최적의 응답 템플릿을 제공하여 상담사와�
   
 ### 기술 스택
 
-- 프론트엔드: [기술/라이브러리 이름]
+- 프론트엔드: 
+- React (UI library)
+- TypeScript (Programming language)
+- UI Components: MUI (Material-UI)
+- State Management: Recoil Design Framework: Tailwind CSS
+-
 - 백엔드: Spring boot 3.2.4, Spring Data JPA, Spring Security 3.1.5
 - 
 - AI:
