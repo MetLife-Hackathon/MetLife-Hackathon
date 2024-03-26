@@ -10,8 +10,15 @@
 | 이름   | 역할 | GitHub                                           | 이메일                |
 |--------|------|--------------------------------------------------|-----------------------|
 | 이태겸 | FrontEnd Dev  | [이태겸](https://github.com/홍길동의GitHubID)  | 이태겸의이메일@도메인 |
+| 박태환 | AI API Dev | [박태환]() |  |
+| 조일민 | AI API Dev | [조일민]() |  |
 | 최승원 | BackEnd Dev | [최승원](https://github.com/김철수의GitHubID)  | 최승원의이메일@도메인 |
-| 박도현 | AI API Dev | [박도현](https://dhparkland.site/) | zerosugarcoke@naver.com |
+| 김예슬 | BackEnd Dev | [김예슬]() |  |
+| 이은지 | BackEnd Dev | [이은지]() |  |
+| 이현수 | AI API Dev | [이현수]() |  |
+| 박무현 | AI API Dev | [박무현]() |  |
+| 박도현 | AI API Dev | [박도현 Link](https://dhparkland.site/) | zerosugarcoke@naver.com |
+
 | [이름 추가] | [역할 추가] | [GitHub 프로필 링크 추가]                       | [이메일 추가]         |
 
 
