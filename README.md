@@ -50,19 +50,14 @@ AI 기반 플랫폼은 최적의 응답 템플릿을 제공하여 상담사와�
 
 - 프론트엔드: [기술/라이브러리 이름]
 - 백엔드: [기술/라이브러리 이름]
-- AI: [
+- 
+- AI:
 - JDK 11: ElasticSearch,Spring Boot 환경 통일
 - ElasticSearch 8.7.0: 보험 약관 데이터 저장 및 검색,Chat GPT Embedding Large
 - Spring Boot 2.7.0: API 제공 서버 개발
 - (GPT)text-embedding-3-small,text-embedding-3-large 모델: 문서 및 쿼리 임베딩
 - GPT-4-1106-preview: 사용자 질의에 대한 답변 생성
 - Python FastAPI: pdf 파일 실시간 임베딩 및 ElasticSearch 색인 서버 개발
-- ]
+- 
 - 데이터베이스: [기술/라이브러리 이름]
 - 기타: [사용된 기타 기술 또는 도구]
-
-### 주요 기능
-
-- 기능 1: [기능 설명]
-- 기능 2: [기능 설명]
-- 기능 3: [기능 설명]
