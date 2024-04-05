@@ -40,13 +40,14 @@
 
 AI 기반 플랫폼은 최적의 응답 템플릿을 제공하여 상담사와의 연결뿐만 아니라 상담의 질을 향상시킵니다.
 
-### 적용된 AI 기술
+### 주요 기술
 
 1. **Elastic Search Vector Database 구축**: 보험 약관의 저장 및 검색을 위해 구축되었습니다.
-    - Chat GPT OCR을 통한 PDF 파일 내 텍스트 추출
-    - Chat GPT Embedding을 활용한 문서 및 쿼리 임베딩
-    - Elastic Search를 이용한 벡터 유사도 검색 및 AI 답변 추출
-  
+2. **Elastic Search Vector 유사도 검색**: Elastic Search를 이용한 벡터 유사도 검색
+3. **ChatGPT OCR Text 추출**: Chat GPT OCR 모델을 통한 PDF 파일 내 텍스트 추출
+4. **Chat GPT Embedding**: Chat GPT Embedding 모델을 활용한 문서 및 쿼리 임베딩
+5. **Chat GPT4-1106-preview**: Chat GPT API 호출로 사용자 맞춤형 검색 답변 생성
+
 ### 기술 스택
 
 - 프론트엔드: 
