@@ -20,7 +20,7 @@
 | 이은지 | 팀장 & BackEnd Dev | [이은지](https://github.com/spew11) | dhbdg11@gmail.com |
 | 이현수 | AI API Dev | [이현수]() |  |
 | 박무현 | AI API Dev | [박무현](https://github.com/parkmuhyeun) | pjhg410@gmail.com |
-| 박도현 | AI API Dev | [박도현 Link](https://dhparkland.site/) | zerosugarcoke@naver.com |
+| 박도현 | AI API Dev | [박도현](https://dhparkland.site/) | zerosugarcoke@naver.com |
 
 
 ## 🎨 프로젝트 설명
