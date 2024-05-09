@@ -56,6 +56,7 @@ AI 기반 플랫폼은 최적의 응답 템플릿을 제공하여 상담사와�
 - UI Components: MUI (Material-UI)
 - State Management: Recoil Design Framework: Tailwind CSS
 
+
 - AI & BackEnd :
 - JDK 11: ElasticSearch,Spring Boot 환경 통일
 - ElasticSearch 8.7.0: 보험 약관 데이터 저장 및 검색
